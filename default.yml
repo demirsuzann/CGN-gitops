@@ -19,10 +19,10 @@ org_settings:
     org_name: SomeOrganizationName
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
-webhook_settings:
-  activities_webhook:
-    enable_activities_webhook: true
-    destination_url: https://webhook.site/99168108-5183-4383-99d4-17394e75628d
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/99168108-5183-4383-99d4-17394e75628d
   features:
     enable_host_users: true
     enable_software_inventory: true
